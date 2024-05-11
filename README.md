@@ -61,6 +61,11 @@ You will find two different docker-composer files:
 - mysql-wordpress-nginx-local.yml
 - mysql-wordpress-varnish-nginx-local.yml
 
+In both of them you will **need to change** the next path using the folder where you clone the project.
+```
+/Users/kiwi/Development/php/
+```
+
 Choose one of them to set up your environment, If you prefer using varnish for developing, just choose the second one.
 
 And execute the command in your terminal:
