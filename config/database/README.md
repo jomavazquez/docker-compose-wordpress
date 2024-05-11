@@ -1,1 +1,1 @@
-# Keep this folder. Your mysql installation will be saved here
+# Delete this file before running docker-compose. This folder needs to be empty
