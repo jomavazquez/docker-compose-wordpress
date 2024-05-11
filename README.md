@@ -68,6 +68,8 @@ In both of them you will **need to change** the next path using the folder where
 
 Choose one of them to set up your environment, If you prefer using varnish for developing, just choose the second one.
 
+Remember delete the file "README.md" in \config\database" before running the docker-compose command. The folder needs to be empty.
+
 And execute the command in your terminal:
 ```
 docker-compose -f mysql-wordpress-varnish-nginx-local.yml up -d
