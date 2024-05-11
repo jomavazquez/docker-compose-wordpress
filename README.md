@@ -14,8 +14,9 @@ Rename the ".env_template" file to ".env" and then change the values with your o
 - MYSQL_PASSWORD=MyPassword
 
 Keep in mind "miproject.test" will be the url for your project. Do not forget include it in your host file like:
+```
 127.0.0.1	www.myproject.test
-
+```
 ## Docker-composer files
 
 You will find two different docker-composer files:
