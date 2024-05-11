@@ -43,7 +43,7 @@ CONFIGURATION FILES / FOLDERS:
 \config\database (your mysql database will be store here)
 \config\nginx
 \config\nginx\conf.d
-\config\varnish (
+\config\varnish
 
 FILES FOR YOUR WORDPRESS SITE
 \web\	
