@@ -1,6 +1,7 @@
 # MySQL + WordPress + Nginx + Varnish + Redish
 
 Hi! Here you'll find the docker-compose file for setting in your localhost a good environment based in the following stack: **MySQL**, **WordPress**, **Nginx**, **Varnish** and **Redis**.
+
 Please read this documentation.
 
 ## Environment variables
@@ -33,19 +34,20 @@ docker-compose -f mysql-wordpress-varnish-nginx-local.yml up -d
 ## Folders structure
 
 This is the structure used for your project:
-> Root, you'll find here docker-compose files. From here you need to run the previous command
+```
+ROOT: you'll find here docker-compose files (From here you need to run the previous command)
 \ 
 
-> **Configuration folders / files:**
+CONFIGURATION FILES / FOLDERS:
 \config\
 \config\database (your mysql database will be store here)
 \config\nginx
 \config\nginx\conf.d
 \config\varnish (
 
-> **Files for your worpress site**
+FILES FOR YOUR WORDPRESS SITE
 \web\	
-
+```
 ## Nginx configuration
 
 Take a look to the "website.conf" file placed in **\config\nginx\conf.d** folder.
