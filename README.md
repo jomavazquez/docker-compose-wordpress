@@ -75,5 +75,7 @@ And execute the command in your terminal:
 docker-compose -f mysql-wordpress-varnish-nginx-local.yml up -d
 ```
 
+If you're using Docker Desktop maybe you get the warning: version is obsolete. You can remove the first line in the yml files then.
+
 #### Happy coding! :blush:
 
